@@ -1,0 +1,90 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-repeat: no-repeat;
+  /* margin: 30px; */
+  background-color: #d8f9da;
+}
+nav {
+  background-color: #35663850;
+  box-shadow: 0px 2px 10px #84b48880;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav-transparent {
+  /* background: transparent; */
+  border-radius: 0px 0px 5px 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+span {
+  color: red;
+  font-size: small;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a:hover {
+  color: white;
+}
+.btn {
+  border: none;
+}
+
+.login-btn {
+  background-color: #e6f0ff;
+  box-shadow: 0px 1px 1px #3a743f;
+  color: #198754;
+}
+.login-btn:hover {
+  background-color: #198754;
+  box-shadow: 0px 1px 10px #3a743f60;
+}
+
+.log-btn {
+  background-color: #198754;
+  box-shadow: 0px 1px 1px #3a743f;
+}
+.log-btn:hover {
+  background-color: #e6f0ff;
+  color: #198754;
+  box-shadow: 0px 1px 10px #3a743f60;
+  --bs-btn-hover-bg: #e6f0ff;
+}
+
+.log-btn::after {
+  background-color: none;
+  color: #198754;
+  box-shadow: 0px 1px 10px #3a743f60;
+}
+.btn-primary :hover {
+  background-color: none;
+}
+
+.card {
+  margin: 5rem auto;
+  width: auto;
+  max-width: 25rem;
+  height: auto;
+  padding: 25px;
+  background-color: #d8f9da50;
+  box-shadow: 0px 0px 20px #00000050;
+}
+
+.sign-in {
+  color: #198754;
+}
+
+.footer {
+  position: fixed;
+
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  /* background-color: #9ffddd; */
+  background-color: #bddfbf;
+}
